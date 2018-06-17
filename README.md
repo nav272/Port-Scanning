@@ -1,6 +1,6 @@
 # Port-Scanning
 ### TCP and UDP port scanning is a method of determining what applications a host is running  
--------------------------
+--
 
 TCP and UDP port scanning is a method of determining what applications a host is
 running. I developed 2 Python programs using the SCAPY module to scan TCP and
