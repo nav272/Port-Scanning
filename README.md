@@ -12,6 +12,7 @@ them by their status of OPEN, CLOSED, FILTERED. i.e. OPEN:1, 2, 3, ...; CLOSED:8
 For UDP, I also scanned all the ports from 0 to 100 and collected the responses by their
 status of CLOSED and OPEN.
 
+
 ### Account for dropped packets: 
 If you send out a TCP/SYN packet and get no response you should send out another as the packet may have
 been dropped. You can see the same logic implemented in my TCP_Port_Scan.py program.
